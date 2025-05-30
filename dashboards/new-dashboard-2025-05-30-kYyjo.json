@@ -110,7 +110,7 @@
         "targets": [
           {
             "editorMode": "code",
-            "expr": "sandwich_dispatch_events_by_type_total",
+            "expr": "rate(sandwich_dispatch_events_by_type_total[$__rate_interval])",
             "legendFormat": "__auto",
             "range": true,
             "refId": "A"
@@ -220,8 +220,8 @@
       "list": []
     },
     "time": {
-      "from": "now-6h",
-      "to": "now"
+      "from": "2025-05-30T01:49:50.449Z",
+      "to": "2025-05-31T01:49:50.449Z"
     },
     "timepicker": {},
     "timezone": "browser",
